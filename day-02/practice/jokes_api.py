@@ -32,3 +32,24 @@ else:
 final_joke = get_joke(url_type,mood)
 
 print(final_joke)
+
+# import requests
+# import json
+
+
+# api_url = "https://jsonplaceholder.typicode.com/posts"
+
+# response = requests.get(url=api_url)
+# data = response.json()
+
+# first_post = data[0]
+
+# print("Post ID:", first_post["id"])
+# print("Title:", first_post["title"])
+# print("Body:", first_post["body"])
+
+
+# with open("output.json", "w") as file:
+#     json.dump(first_post, file, indent=4)
+
+# print("Data saved to output.json")
