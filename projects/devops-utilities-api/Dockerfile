@@ -15,3 +15,4 @@ EXPOSE 8000
 # Gas on
 
 CMD ["python","main.py"]
+
